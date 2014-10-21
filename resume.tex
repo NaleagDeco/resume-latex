@@ -17,7 +17,7 @@
 \firstname{Gaelan}
 \familyname{D\kern-.05em'\kern-.1emcosta}
 \address{79 Broadview Avenue}{Toronto, ON, Canada, M4M 2E4}
-\mobile{416-527-1802}
+\mobile{416--527--1802}
 \email{gdcosta@gmail.com}
 \extrainfo{\httplink{www.github.com/NaleagDeco}}
 
@@ -29,79 +29,140 @@
 
 \section{Languages}
 \cvlanguage{}{Fluent}{C++, JavaScript, Python, Ruby}
-\cvlanguage{}{Intermediate}{C, Java, Common Lisp, HTML, Scheme, Shell Scripting, SQL}
-\cvlanguage{}{Familiar}{\LaTeX, Haskell}
+\cvlanguage{}{Intermediate}{C, Java, Common Lisp/Scheme, HTML, Scala,
+  Shell Scripting, SQL}
+\cvlanguage{}{Familiar}{Clojure, \LaTeX, Haskell}
 
 \section{Skills}
 \cvlistdoubleitem{Code Quality Metrics}{Agile Planning Methodology}
 \cvlistdoubleitem{Test Driven Development}{Multi-paradigm Programming}
-\cvlistdoubleitem{Web-application Bootstrapping}{Virtualized Development Environments}
+\cvlistdoubleitem{Web-application Bootstrapping}{Virtualized
+  Development Environments}
 \cvlistdoubleitem{Mentoring}{Team Leadership}
-\cvlistdoubleitem{Master Data Management}{ETL Concepts}
+\cvlistdoubleitem{Master Data Management}{ETL}
 \cvlistdoubleitem{Field Troubleshooting}{Requirements Development}
 \cvlistdoubleitem{Concurrency Primitives}{Operating System Multiprocessing}
 
 \section{Experience}
-\cventry{2011--2013}{Business Infrastructure Engineer}{Kontagent}{Toronto, ON}{}{
+\cventry{2013--2014}{Senior Engineer, Team Lead}{Gallop Labs}{Toronto, ON}{}{
   \begin{itemize}
-  \item Developed modular infrastructure to process metrics definitions and customer usage metadata from core analytics SaaS product.
-  \item Distributed above analyses to customer relations, customer support, and documentation teams for data-driven analysis.
-  \item Derived technical/process deliverables though collaborating over requirements and usage scenarios with non-technical end users.
-  \item Bootstrapped and developed best practices for Django-based projects using Vagrant for local virtualization and Puppet for seamless deployment.
-  \item Mentored undergraduate co-ops and interns in both software and documentation development.
-  \item In order to advertise team bandwidth and clarify intended roadmap, moved team onto a combination of Kanban and Scrum-driven project planning.
-  \item Conducted post-mortems on department's previous failed initiatives, restarting them while accounting for factors in previous failures.
-  \item Engaged local developer community in order to attract talent and increase Kontagent's presence in community.
+    \item Developed, with Django \& Couchbase, a service-oriented
+      architecture for optimizing Facebook campaigns via performance
+      and user analytics data from Mixpanel and Localytics.
+    \item Productized optimization features based on machine learning
+      algorithms via discussions with external domain experts and
+      protoyping via Python's scienfitic computing libraries.
+    \item Made infrastructure stack decisions based on requirements,
+      technical responsibility, and implementation costs given our
+      need to iterate at bootstrapped company speeds.
+    \item Facilitated a product management funnel to convert business
+      development feature proposals into a roadmap, use cases,
+      technical requirements, and eventually implementation stories
+      via Pivotal Tracker.
+    \item Regularly sync with the business development team of a very
+      young company to ensure that we balance the need for quick
+      growth with having a scalable and sustainable engineering pace.
   \end{itemize}
 }
-\cventry{2010--2011}{Infrastructure Engineer}{Blue Coat Systems}{Waterloo, ON}{}{
+\cventry{2011--2013}{Business Infrastructure
+  Engineer}{Kontagent}{Toronto, ON}{Python, Salesforce}{
   \begin{itemize}
-  \item Modernized a custom and long-lived C++-based embedded operating system designed for enterprise network infrastructure.
-  \item Ported libpcre (a popular regular expression library), adapting for our system's particular memory and multiprocessing requirements.
-  \item Extended a boost-inspired standard library for a proprietary embedded operating system.
-  \item Restructured monolithic and inadequately-tested components into well-tested modular designs without breaking customer or QA expectations.
-  \item Adopted --- organically and through retrospection --- scrum and test-driven methodologies for a team with a variety of experience and enthusiasm.
+  \item Produced automated infrastructure for producing usage,
+    sales and churn metrics from company's Django-derived platform,
+    delivering and displaying results into Salesforce dashboards \&
+    GoodData.com
+  \item Developed company intranet with dynamic content using
+    Bootstrap and Django.
+  \item Developed platform for automatically generating customer
+    documentation for querying Kontagent's analytics metrics from
+    engineering-defined schemas.
+  \item Developed best practices for Django-based development projects
+    using Vagrant for virtualization and Salt for centralized
+    configuration.
+  % \item Engaged local developer community in order to attract talent
+  %   and increase Kontagent's presence in community.
+  \end{itemize}
+}
+\cventry{2010--2011}{Infrastructure Engineer}{Blue Coat
+  Systems}{Waterloo, ON}{C++, DSLs}{
+  \begin{itemize}
+  \item Ported the PCRE regular expression library to a system with no
+    global heaps, fixed stack memory limits and no virtual memory protection.
+  \item Restructured monolithic and inadequately-tested components
+    into well-tested modular designs.
+  \item Adopted --- organically and through retrospection --- scrum
+    and test-driven methodologies for a team with a variety of
+    experience and enthusiasm.
   \end{itemize}
 }
 \cventry{2006--2010}{Intern/Sustaining Engineer}{Blue Coat Systems}{Waterloo,
-  ON}{}{
+  ON}{C++, embedded operating systems}{
   \begin{itemize}
-  \item Delved into semi-familiar C/C++ component codebases to fix defects and supply workarounds, including:
+  \item Diagnosed memory dumps from crashed network devices, delving
+    into semi-familiar codebases to fix errors in:
     \begin{itemize}
+    \item optimized binaries with or without debugger support and annotated
+      assembly listings
+    \item hardware defects
     \item application-specific protocol optimization.
     \item configuration language parsing and compilation.
-    \item interprocess communication primitives and concurrency mechanism.
+    \item interprocess communication primitives and concurrency mechanisms.
     \item core kernel routines.
-    \item a log-based filesystem.
+    \item log-based filesystem operations.
     \end{itemize}
-  \item Utilized custom-generated configuration files, memory dumps, annotated assembly code, and GDB on optimized code to troubleshoot crashes in the field.
-  \item Trended internal crash statistics to proactively anticipate possible issues in the field.
-  \item Developed custom continuous integration system to poll an externally controlled source repository server for new project revisions for testing and report-generation.
-  \end{itemize}}
+  \item Trended internal crash statistics to proactively anticipate
+    possible issues in the field.
+  \item Developed custom continuous integration system to poll source
+    repositories for new changes to test and deploy.
+  \end{itemize}
+}
 \cventry{2005}{Co-op Software Engineer}{Community Care Access Centre}{Kitchener,
-  ON}{}{
+  ON}{Tomcat, Java, SQL}{
   \begin{itemize}
-    \item Restructured the core logic of a secure Tomcat/MySQL-based health information service deployed by sister corporations in several regions across Ontario.
-    \item Contributed 80\% of total modifications to version of project released during work term.
-    \item Refactored existing code to reduce redundancy and coupling.
-    \item Proposed, designed and implemented significant features and enhancements.
-    \item Refined web-based interface to maximize usability, both through user feedback and independent research.
-    \item Actively participated in and led discussions regarding the future project development.
+    \item Frontend and backend development of a PIPEDA-compliant
+      document exchange platform used province-wide by Ontario long-term
+      healthcare providers.
+    \item Contributed 80\% of product's code modifications during
+      tenure of work term.
+    \item Leveraged user feedback and independent research to refine
+      platform UX/UI.
+    \item Despite being student employee, proposed future directions
+      and led design discussions around those proposals.
   \end{itemize}}
 \cventry{2003--2005}{Previous Co-op Experience}{Available on Request}{}{}{}
 
 \section{Education}
-\cventry{2002--2007}{Computer Science w/ Philosophy minor}{University of
-  Waterloo}{}{Baccalaureate}{}
+\cventry{2002--2007}{Computer Science with Philosophy minor}{University of
+  Waterloo}{}{}{}
 
 \section{Extracurricular}
-\cventry{2013}{Backend/REST API development}{NASA Space Apps}{Waystation (Toronto location finalist)}{}{Tracked ISS location over time, displayed localized visibility times/conditions, featured social interaction via Twitter and photographs.}
-\cventry{2013}{Participant}{Global Game Jam: Games for Change}{Common Causes}{}{Physical board game highlighting the challenges and tradeoffs in allocating limited resources to a variety of social causes.}
+\cventry{2014}{Random Hacks of Kindness}{}{Digital Books of
+  Authority}{}{
+  \begin{itemize}
+  \item HTML5 application enabling lawyers to automatically create court
+    filings
+  \item Document generation and precedence citing via templates and
+    API access to the Canadian Legal Information Institute's
+    document archive.
+  \end{itemize}}
+\cventry{2013}{Backend/REST API development}{NASA Space
+  Apps}{Waystation (Toronto finalist)}{}{
+  \begin{itemize}
+  \item Displayed the International Space Station's location over the
+    Earth in realtime
+  \item REST backend --using Python/Flask-- for facilitating
+    interaction with ISS astronauts via Twitter and online
+    photographs.
+  \end{itemize}}
+\cventry{2013}{Participant}{Global Game Jam: Games for Change}{Common
+  Causes}{}{Physical board game highlighting the challenges and
+  tradeoffs in allocating limited resources to social causes.}
 \cventry{2011}{Open Data Waterloo Region}{}{}{}{}
-\cventry{2009}{Exhibit Operations Volunteer}{Contemporary Art Festival of Kitchener + Area}{}{}{}
+\cventry{2009}{Exhibit Operations Volunteer}{Contemporary Art Festival
+  of Kitchener + Area}{}{}{}
 \cventry{2008}{Scriptwriter}{University of Waterloo Faculty, Alumni, Student
   and Staff Theatre Company}{}{}{}{}
 \cventry{2007}{President}{UW Undergraduate Computer Science Club}{}{}{
-  Approached and faciliated for such notable speakers as Bjarne Stroustrup and
-  Richard M. Stallman to perform public lectures at the University of Waterloo.}
+  Approached and facilitated public lectures by Bjarne Stroustrup and
+  Richard M. Stallman on behalf of the University of Waterloo.}
 \end{document}
