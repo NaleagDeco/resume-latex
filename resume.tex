@@ -44,41 +44,41 @@
 \cvlistdoubleitem{Concurrency Primitives}{Operating System Multiprocessing}
 
 \section{Experience}
-\cventry{2013--2014}{Senior Engineer, Team Lead}{Gallop Labs}{Toronto, ON}{}{
+\cventry{2013--2014}{Senior Software Development}{Gallop Labs}{Toronto, ON}{}{
   \begin{itemize}
-    \item Developed, with Django \& Couchbase, a service-oriented
-      architecture for optimizing Facebook campaigns via performance
-      and user analytics data from Mixpanel and Localytics.
-    \item Productized optimization features based on machine learning
-      algorithms via discussions with external domain experts and
-      protoyping via Python's scienfitic computing libraries.
-    \item Made infrastructure stack decisions based on requirements,
-      technical responsibility, and implementation costs given our
-      need to iterate at bootstrapped company speeds.
-    \item Facilitated a product management funnel to convert business
-      development feature proposals into a roadmap, use cases,
-      technical requirements, and eventually implementation stories
-      via Pivotal Tracker.
-    \item Regularly sync with the business development team of a very
-      young company to ensure that we balance the need for quick
-      growth with having a scalable and sustainable engineering pace.
+    \item Refactored a Django \& AngularJS web application from a
+      Facebook Ad Campaign editor into a platform for automated
+      analysis of Facebook advertisements and mobile user events.
+    \item Engineered a Couchbase-driven service that stored historical
+      Facebook ad performance in hourly increments for analysis, though
+      Facebook's API only provides daily aggregates.
+    \item Used various open source libraries, to replace custom
+      modules for integrating with external services, contributing
+      functionality when required.
+    \item When requiring a proof-of-concept for automated campaign
+      optimization, consulted with external data scientists, to
+      provide a solution using Python scientific and decision trees.
+    \item Given a young team without much organizational experienced,
+      collaborated with business development to form processes for converting
+      business requirements into roadmaps, technical designs and user stories.
+      % while moving at bootstrapped company speeds.
   \end{itemize}
 }
 \cventry{2011--2013}{Business Infrastructure
   Engineer}{Kontagent}{Toronto, ON}{Python, Salesforce}{
   \begin{itemize}
-  \item Produced automated infrastructure for producing usage,
+  \item Designed an automated infrastructure for producing usage,
     sales and churn metrics from company's Django-derived platform,
-    delivering and displaying results into Salesforce dashboards \&
-    GoodData.com
-  \item Developed company intranet with dynamic content using
-    Bootstrap and Django.
+    delivering and displaying results into Salesforce dashboards.
+  \item Reworked development environment from one requiring manual
+    management of multiple Xen-based instances into an environment
+    run on developer machines via Vagrant and configured via Salt (a
+    Chef/Puppet alternative) using Vagrant for virtualization and Salt
+    for automatic configuration.
   \item Developed platform for automatically generating customer
-    documentation for querying Kontagent's analytics metrics from
-    engineering-defined schemas.
-  \item Developed best practices for Django-based development projects
-    using Vagrant for virtualization and Salt for centralized
-    configuration.
+    documentation APIs from engineering-defined schemas.
+  \item Developed Sales Force Automation functionality using
+    Salesforces' custom classes and triggers.
   % \item Engaged local developer community in order to attract talent
   %   and increase Kontagent's presence in community.
   \end{itemize}
@@ -86,8 +86,9 @@
 \cventry{2010--2011}{Infrastructure Engineer}{Blue Coat
   Systems}{Waterloo, ON}{C++, DSLs}{
   \begin{itemize}
-  \item Ported the PCRE regular expression library to a system with no
-    global heaps, fixed stack memory limits and no virtual memory protection.
+  \item Ported the open-source PCRE regular expression library to a
+    system with
+    no global heaps, fixed stack memory limits and no virtual memory protection.
   \item Restructured monolithic and inadequately-tested components
     into well-tested modular designs.
   \item Adopted --- organically and through retrospection --- scrum
