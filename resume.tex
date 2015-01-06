@@ -27,108 +27,65 @@
 %\section{Objective}
 %\cvline{}{A leadership software role within Toronto's Agile Development.}
 
-\section{Languages}
-\cvlanguage{}{Fluent}{C++, JavaScript, Python, Ruby}
-\cvlanguage{}{Intermediate}{C, Java, Common Lisp/Scheme, HTML, Scala,
-  Shell Scripting, SQL}
-\cvlanguage{}{Familiar}{Clojure, \LaTeX, Haskell}
-
-\section{Skills}
-\cvlistdoubleitem{Code Quality Metrics}{Agile Planning Methodology}
-\cvlistdoubleitem{Test Driven Development}{Multi-paradigm Programming}
-\cvlistdoubleitem{Web-application Bootstrapping}{Virtualized
-  Development Environments}
+\section{Skill Set}
+\cvlistitem{Multiple languages: Ruby, Python, C/C++, Javascript,
+  Clojure\ldots}
+\cvlistdoubleitem{Metric-driven code quality}{Agile planning methodologies}
+\cvlistdoubleitem{Test Driven Development}{Multi-paradigm programming}
 \cvlistdoubleitem{Mentoring}{Team Leadership}
-\cvlistdoubleitem{Master Data Management}{ETL}
-\cvlistdoubleitem{Field Troubleshooting}{Requirements Development}
-\cvlistdoubleitem{Concurrency Primitives}{Operating System Multiprocessing}
+\cvlistitem{Virtualized Development Environments}
+
 
 \section{Experience}
 \cventry{2013--2014}{Senior Software Development}{Gallop Labs}{Toronto, ON}{}{
   \begin{itemize}
-    \item Refactored a Django \& AngularJS web application from a
-      Facebook Ad Campaign editor into a platform for automated
-      analysis of Facebook advertisements and mobile user events.
-    \item Engineered a Couchbase-driven service that stored historical
-      Facebook ad performance in hourly increments for analysis, though
-      Facebook's API only provides daily aggregates.
-    \item Used various open source libraries, to replace custom
-      modules for integrating with external services, contributing
-      functionality when required.
-    \item When requiring a proof-of-concept for automated campaign
-      optimization, consulted with external data scientists, to
-      provide a solution using Python scientific and decision trees.
-    \item Given a young team without much organizational experienced,
-      collaborated with business development to form processes for converting
-      business requirements into roadmaps, technical designs and user stories.
-      % while moving at bootstrapped company speeds.
+  \item Full-stack implementation of ad campaign
+    optimization/reporting platform using various analytics providers.
+  \item Redesigned ETL infrastructure to produce and store hourly Facebook
+    performance data, an unfeasible requirement for existing
+    relational database infrastructure.
+  \item Lead young engineering team through a spinoff, multiple
+    pivots, and through a winning entry in the 2014 Facebook
+    Innovation Competition.
   \end{itemize}
 }
 \cventry{2011--2013}{Business Infrastructure
-  Engineer}{Kontagent}{Toronto, ON}{Python, Salesforce}{
+  Engineer}{Kontagent}{Toronto, ON}{}{
   \begin{itemize}
-  \item Designed an automated infrastructure for producing usage,
-    sales and churn metrics from company's Django-derived platform,
-    delivering and displaying results into Salesforce dashboards.
-  \item Reworked development environment from one requiring manual
-    management of multiple Xen-based instances into an environment
-    run on developer machines via Vagrant and configured via Salt (a
-    Chef/Puppet alternative) using Vagrant for virtualization and Salt
-    for automatic configuration.
-  \item Developed platform for automatically generating customer
-    documentation APIs from engineering-defined schemas.
-  \item Developed Sales Force Automation functionality using
-    Salesforces' custom classes and triggers.
-  % \item Engaged local developer community in order to attract talent
-  %   and increase Kontagent's presence in community.
+  \item Designed integration system to produce customer
+    retention/usage reports between Salesforce data and product usage data.
+  \item Reworked internal products to use Vagrant and centralized
+    configuration software (like Puppet/Chef) to lessen burden on Dev Ops.
+  \item Implemented Scrum and Kanban agile methodologies to balance load and
+    schedules for a team primarily composed of interns.
   \end{itemize}
 }
-\cventry{2010--2011}{Infrastructure Engineer}{Blue Coat
-  Systems}{Waterloo, ON}{C++, DSLs}{
+\cventry{2006--2011}{Infrastructure Engineer / Sustaining Engineer}{Blue Coat
+  Systems}{Waterloo, ON}{}{
   \begin{itemize}
-  \item Ported the open-source PCRE regular expression library to a
-    system with
-    no global heaps, fixed stack memory limits and no virtual memory protection.
-  \item Restructured monolithic and inadequately-tested components
-    into well-tested modular designs.
-  \item Adopted --- organically and through retrospection --- scrum
-    and test-driven methodologies for a team with a variety of
-    experience and enthusiasm.
-  \end{itemize}
-}
-\cventry{2006--2010}{Intern/Sustaining Engineer}{Blue Coat Systems}{Waterloo,
-  ON}{C++, embedded operating systems}{
-  \begin{itemize}
-  \item Diagnosed memory dumps from crashed network devices, delving
-    into semi-familiar codebases to fix errors in:
-    \begin{itemize}
-    \item optimized binaries with or without debugger support and annotated
-      assembly listings
-    \item hardware defects
-    \item application-specific protocol optimization.
-    \item configuration language parsing and compilation.
-    \item interprocess communication primitives and concurrency mechanisms.
-    \item core kernel routines.
-    \item log-based filesystem operations.
-    \end{itemize}
+  \item Ported open-source libraries to a
+    proprietary embedded operating system with atypical memory
+    management, and other limitations.
+  \item Restructured monolithic codebase to be modular and well-tested.
+  \item Championed and enabled agile methodologies and code quality
+    metrics for a team accustomed to waterfall methodologies that were
+    no longer serving their purpose.
+  \item Diagnose post-crash memory dumps of network devices, isolating
+    incorrect code logic with or without debugger assistance, and
+    fixing issues in semi-familiar component code.
   \item Trended internal crash statistics to proactively anticipate
     possible issues in the field.
-  \item Developed custom continuous integration system to poll source
-    repositories for new changes to test and deploy.
-  \end{itemize}
+ \end{itemize}
 }
 \cventry{2005}{Co-op Software Engineer}{Community Care Access Centre}{Kitchener,
   ON}{Tomcat, Java, SQL}{
   \begin{itemize}
     \item Frontend and backend development of a PIPEDA-compliant
-      document exchange platform used province-wide by Ontario long-term
-      healthcare providers.
+      document exchange platform used province-wide.
     \item Contributed 80\% of product's code modifications during
       tenure of work term.
-    \item Leveraged user feedback and independent research to refine
-      platform UX/UI.
-    \item Despite being student employee, proposed future directions
-      and led design discussions around those proposals.
+    \item Led design and usability discussions around new features,
+      including gathering feedback.
   \end{itemize}}
 \cventry{2003--2005}{Previous Co-op Experience}{Available on Request}{}{}{}
 
@@ -137,6 +94,9 @@
   Waterloo}{}{}{}
 
 \section{Extracurricular}
+\cventry{2014}{General Volunteer}{Bit Bazaar}{}{General Volunteer}{
+  General setup, teardown, and assistance to vendors and performers at
+  a local Toronto game-maker/artist exhibition}
 \cventry{2014}{Random Hacks of Kindness}{}{Digital Books of
   Authority}{}{
   \begin{itemize}
@@ -150,10 +110,9 @@
   Apps}{Waystation (Toronto finalist)}{}{
   \begin{itemize}
   \item Displayed the International Space Station's location over the
-    Earth in realtime
-  \item REST backend --using Python/Flask-- for facilitating
-    interaction with ISS astronauts via Twitter and online
-    photographs.
+    Earth in realtime.
+  \item REST backend for facilitating interaction with ISS astronauts
+    via Twitter and online photographs.
   \end{itemize}}
 \cventry{2013}{Participant}{Global Game Jam: Games for Change}{Common
   Causes}{}{Physical board game highlighting the challenges and
